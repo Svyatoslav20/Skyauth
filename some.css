@@ -1,0 +1,10 @@
+* {
+    margin: 0
+}
+img {
+    size: 100%;
+}
+p {
+    position: absolute;
+    top: 50px;
+}

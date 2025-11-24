@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Читалка</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="content">
+
+        <div class="content__wrap">
+            <div class="header">
+                <img src="./images/menu-logo-icon.svg" class="SkySmart"></img>
+                <h1 class="header__chapter"></h1>
+                <h2 class="header__title">Пока вы регистрируетесь...</h2>
+            </div>
+
+            <div class="content__text">
+                <p class="text">
+                Skysmart — это современная онлайн-школа, 
+                которая предлагает поддержку в обучении для детей и подростков. 
+                Здесь созданы комфортные условия для разностороннего развития и достижения учебных целей.
+                </p>
+                <p class="text">
+                Платформа предоставляет разнообразные форматы занятий:
+                от раннего развития детей до школьных лет, до серьезной подготовки к ЕГЭ и ОГЭ.
+                Ученики могут подтянуть знания по ключевым школьным предметам, таким как математика, русский язык, английский, физика, химия, информатика и обществознание.
+                Для увлеченных технологиями доступны курсы программирования «Профессии будущего».
+                А формат «Домашний лицей Skysmart» позволяет получить полноценное школьное образование с государственным аттестатом в удобном онлайн-формате.
+                </p>
+                <p class="text">
+                Главные преимущества Skysmart — это индивидуальный подход к каждому ученику, команда опытных и внимательных репетиторов, 
+                а также применение современных методик обучения.
+                Онлайн-формат делает процесс образования гибким и доступным, экономя время на дорогу.
+                </p>
+                <p class="text">
+                В Skysmart помогают не только улучшить текущие оценки,
+                но и дают прочные знания, которые помогут ребенку чувствовать себя 
+                уверенно в школе и успешно подготовиться к будущему.
+                </p>
+                <p class="text">
+                Преимущества:
+                </p>
+                <p class="text">
+                    Гибкость: Возможность учиться из любой точки мира с гибким графиком.<br>
+                    Опытные преподаватели: Более 15 000 преподавателей по различным предметам. <br>
+                    Современные методики: Использование игрового формата и интерактивных заданий.
+
+                </p>
+            </div>
+
+            <div class="content__footer">
+                <p class="pages">Fun-страничка</p>
+            </div>
+        </div>
+
+        <div class="content__settings">
+
+            <button class="settings__close" title="Закрыть настройки"></button>
+
+            <div class="settings">
+
+                <form class="auth">
+                    <div class="auth__labels">
+                        <h3 class="auth__label">Регистрация / вход</h3>
+                        <h4 class="auth__sublabel">Чтобы сохранить настройки</h4>    
+                    </div>
+                    <label class="label">
+                        Имя:
+                        <input type="text" class="input">
+                    </label>
+                    <label class="label">
+                        Email:
+                        <input type="email" class="input">
+                    </label>
+                    <label class="label">
+                        Пароль:
+                        <input type="password" class="input">                    
+                    </label>
+                    <input type="button" value="Войти" class="auth__btn">
+                    
+                </form>
+
+                <form class="settings__form">
+                    <h3 class="settings__label">Настройки</h3>
+                    <label class="label">
+                        Шрифт:
+                        <select class="settings__input">
+                            <option value="StratosSkyeng" selected>StratosSkyeng</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="OpenSans">OpenSans</option>
+                        </select>
+                    </label>
+                    <label class="label">
+                        Размер:
+                        <input type="number" class="settings__input" value="16">
+                        px    
+                    </label>
+                    <label class="label">
+                        Цвет:
+                        <input type="color" class="settings__input">    
+                    </label>
+                    <label class="label">
+                        Интервал:
+                        <input type="range" class="settings__input" value="0" min="0" max="100" step="10">    
+                    </label>
+                    <div class="label">
+                        Цвет фона:
+                        <label class="settings__background-color-label">
+                            <input type="radio" name="font-color" id="">
+                        </label>
+                        <label class="settings__background-color-label">
+                            <input type="radio" name="font-color" id="">
+                        </label>
+                        <label class="settings__background-color-label">
+                            <input type="radio" name="font-color" id="">
+                        </label>
+                        <label class="settings__background-color-label">
+                            <input type="radio" name="font-color" id="">
+                        </label>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <a href="./Some.html">Еще интереснее...</a>
+
+    </main>
+</body>
+
+</html>
